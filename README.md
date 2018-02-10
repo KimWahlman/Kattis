@@ -12,5 +12,6 @@ R2
 Reversed Binary Numbers  
 Tarifa  
 Tri  
+What Does the Fox Say?  
 Yoda  
 Zamka  
