@@ -11,9 +11,7 @@ void SplitString(std::string& str, std::vector<std::string>& res)
     std::stringstream ss(str);
     std::string item;
     while (std::getline(ss, item, ' '))
-    {
         res.push_back(item);
-    }
 }
 
 int main()
@@ -42,20 +40,16 @@ int main()
 
             SplitString(testRecorded, testCaseSounds);
             for (unsigned int j = 0; j < knownSounds.size(); j++)
-            {
-                if (knownSounds[j] == testCaseSounds[2]) {
+                if (knownSounds[j] == testCaseSounds[2])
                     knownSounds.erase(knownSounds.begin() + j--);
-                }
-            }
+
             testCaseSounds.clear();
         }
         
         for (unsigned int i = 0; i < knownSounds.size(); i++)
-        {
             std::cout << knownSounds[i] << " ";
-        }
-
         std::cout << "\n";
+        
         knownSounds.clear();
         testRecorded.clear();
     }
