@@ -5,7 +5,7 @@ void Yoda(std::string& s1, std::string& s2)
 {
 	std::string s3, s4;
 	int s1Lenght = s1.length(),
-		s2Length = s2.length();
+	    s2Length = s2.length();
 
 	if (s1.length() > s2.length())
 	{
@@ -26,7 +26,6 @@ void Yoda(std::string& s1, std::string& s2)
 			s3.push_back(s1[i]);
 		else if ((s1[i] - '0') < (s2[i] - '0'))
 			s4.push_back(s2[i]);
-
 		else
 		{
 			s3.push_back(s1[i]);
