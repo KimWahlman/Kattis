@@ -35,4 +35,5 @@ int main()
 				notFree = false;
 	}
 	std::cout << randomBookedRoom;
+	return 0;
 }
