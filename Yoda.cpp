@@ -22,7 +22,7 @@ void Yoda(std::string& s1, std::string& s2)
 
 	for (int i = 0; i < s2.length(); i++)
 	{
-		if ((s1[i] - '0') >(s2[i] - '0'))
+		if ((s1[i] - '0') > (s2[i] - '0'))
 			s3.push_back(s1[i]);
 		else if ((s1[i] - '0') < (s2[i] - '0'))
 			s4.push_back(s2[i]);
